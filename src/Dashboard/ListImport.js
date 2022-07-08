@@ -403,7 +403,7 @@ export default function MiniDrawer() {
             </IconButton>
           </Search>
 
-          <Box sx={{ flexGrow: 1 }} />
+          {/* <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <IconButton
               size="large"
@@ -436,11 +436,11 @@ export default function MiniDrawer() {
             >
               <MoreIcon />
             </IconButton>
-          </Box>
+          </Box> */}
         </Toolbar>
       </AppBar>
-      {renderMobileMenu}
-      {renderMenu}
+      {/* {renderMobileMenu}
+      {renderMenu} */}
 
       <Drawer variant="permanent" open={open}>
         <DrawerHeader>
