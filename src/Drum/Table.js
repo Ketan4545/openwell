@@ -8,7 +8,7 @@ import LinearProgress from "@mui/material/LinearProgress";
 import Grid from "@mui/material/Grid";
 import CircularProgress from "@mui/material/CircularProgress";
 
-export default Table = ({ height, name }) => {
+export default function Table ({ height, name }) {
   const [data, setData] = useState([]);
   const [rows, setRows] = React.useState("");
   const [desc, setDesc] = useState("");
