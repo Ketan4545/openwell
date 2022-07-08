@@ -387,7 +387,7 @@ export default function MiniDrawer() {
           <Typography variant="h6" noWrap component="div">
             SQL-Dash
           </Typography>
-          <Search sx={{ display: { xs: "none", md: "flex" } }}>
+          {/*<Search sx={{ display: { xs: "none", md: "flex" } }}>
             <StyledInputBase
               type="text"
               placeholder="Search…"
@@ -401,7 +401,7 @@ export default function MiniDrawer() {
             >
               <SearchIcon />
             </IconButton>
-          </Search>
+          </Search> */}
 
           {/* <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
